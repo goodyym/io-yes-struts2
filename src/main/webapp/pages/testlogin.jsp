@@ -3,8 +3,17 @@
 <html>
 <head>
     <title></title>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/test_struts.js"></script>
 </head>
 <body>
-    ${aa}
+
+<input id="hidId" type="hidden" value="${pageContext.request.contextPath}" />
+
+    ${username}
+    <hr />
+
+    <div id="divId"></div>
+
 </body>
 </html>

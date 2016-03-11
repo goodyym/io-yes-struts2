@@ -1,0 +1,16 @@
+$(function(){
+    $.ajax({
+        url:$("#hidId").val()+"/testA/testAjax",
+        type:"get",
+        dataType:"json",
+        data:{},
+        success:function(data){
+            //$("#divId").html(data.username);
+            console.log(data.username);
+            console.log(data.ssss);
+        },
+        error:function(data){
+            console.log("error++++++++++++");
+        }
+    });
+});
