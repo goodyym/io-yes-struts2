@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
 
   <name>io-yes-struts2</name>
   <groupId>com.good.teststruts2</groupId>
@@ -11,11 +11,11 @@
 
   <build>
     <plugins>
-      <plugin>
+      <!--<plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.5.1</version>
-      </plugin>
+      </plugin>-->
         <plugin>
             <groupId>org.apache.tomcat.maven</groupId>
             <artifactId>tomcat7-maven-plugin</artifactId>
@@ -30,7 +30,7 @@
             <artifactId>maven-clean-plugin</artifactId>
             <version>2.5</version>
         </plugin>
-        <plugin>
+        <!--<plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.1</version>
@@ -39,7 +39,7 @@
                 <target>1.6</target>
                 <showWarnings>true</showWarnings>
             </configuration>
-        </plugin>
+        </plugin>-->
     </plugins>
 
   </build>
